@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<head>
+    <title>EX1</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .parents {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        height: 50vh;
+        gap: 1%;
+        padding: .5%;
+    }
+
+    .child {
+        border: 1px gray;
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    img {
+        grid-column: span 1;
+        grid-row: span 2;
+        height: 100%;
+        width: 100%;
+    }
+
+    .f1 {
+        background-color: rgb(255, 255, 255);
+        grid-column: span 1;
+        grid-row: span 2;
+        gap: 1%;
+        padding: 2%;
+    }
+</style>
+
+<body>
+    <div class="parents">
+        <div class="child">
+            <img src="https://i.pinimg.com/564x/b6/e7/e0/b6e7e0cbf68cb215be14eb8098e835de.jpg">
+            <div class="f1">
+                <h5 style="color: gray;"> * members only </h5>
+                <h2>Best Mountain Trails 2020</h2><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quibusdam temporibus fugiat
+                    cumque ipsum cupiditate aut distinctio nulla illum. Libero! </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>john smith </p> Aug 18
+            </div>
+
+        </div>
+        <div class="child"><img src="https://i.pinimg.com/564x/73/8f/73/738f7354a0c85808352b4b1254c8071f.jpg">
+            <div class="f1">
+                <h5 style="color: gray;"> * members only </h5>
+                <h2>15 Rivers In Norway</h2><br>
+                <p> The Puente Nuevo (Spanish pronunciation:"New Bridge") is the newest and largest of three bridges
+                    that span the 120-metre-deep (390 ft) chasm that carries the Guadalevín River and divides the city
+                    of Ronda, in southern Spain. Completed in 1793, the architect was José Martin de Aldehuela and the
+                    chief builder was Juan Antonio Díaz Machuca.</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>karen johnson</p> Aug 10
+            </div>
+        </div>
+        <div class="child"><img src="https://i.pinimg.com/564x/f3/1a/11/f31a1141216f6e4af713f9411833712b.jpg">
+            <div class="f1">
+                <h5 style="color: gray;"> * members only </h5>
+                <h2>5 National Forests across the u.s.</h2><br>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus itaque ipsum mollitia molestias
+                    vero, eos temporibus saepe architecto commodi quos. </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>Rafael Martin</p> Aug 18
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
